@@ -4,3 +4,13 @@ Package configparse is an utility to parse json or yaml config files straight in
 
 # configparse
 Go yaml/json config parser
+
+## use
+
+to get current HEAD version:
+
+```go get http://github.com/jarema/configparse```
+
+to get tagged version:
+
+``go get http://gopkg.in/jarema/configparse.v0```
