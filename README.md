@@ -13,4 +13,4 @@ to get current HEAD version:
 
 to get tagged version:
 
-``go get http://gopkg.in/jarema/configparse.v0```
+```go get http://gopkg.in/jarema/configparse.v0```
