@@ -1,3 +1,5 @@
+// Package configparse is an utility to parse json or yaml config files straight
+// into golang type of choice while saving few lines of codes.
 package configparse
 
 import (
@@ -14,6 +16,7 @@ const (
 )
 
 // ParseConfigFile encodes json or yml config file to given type
+// you need to add json/yaml tags if you're passing struct
 func ParseConfigFile(fileType string, filepath string, output interface{}) error {
 	var err error
 	fileContent, err := ioutil.ReadFile(filepath)
