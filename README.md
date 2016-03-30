@@ -5,7 +5,7 @@ Package configparse is an utility to parse json or yaml config files straight in
 # configparse
 Go yaml/json config parser
 
-## use
+## usage
 
 to get current HEAD version:
 
